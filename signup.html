@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+  <meta name="description" content="Love Live"><!--search engine words-->
+  <meta name="keywords" content="Love Live">
+  <meta name="author" content="Charles">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--for web and phone convenience-->
+  <link rel="stylesheet" href="styles.css">
+
+<style>
+input{
+  width:50%;
+}
+td {
+  border-radius:10px;
+  padding:5px;
+  border-style:outset;
+  text-align:center;
+  background-color: lightgray;
+}
+td:hover {
+  background-color: lightpink;
+}
+</style>
+<title>Love Live! Nation|SignUp</title>
+<link rel="icon" href="pngaaa.com-664611.png" type="image/png">
+</head>
+
+<body style="background-image: url('back4.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+
+<h2 id="top" style="color:violet;background-color:gray;padding:1%;border:outset violet;">
+<img src="logo.png" alt="logo" style="width:120px;height:24px;padding-left:20px;padding-right:20px;"><i>Love Live! School Idol Project</i>
+</h2>
+
+<table style="border:none;width:100%;border-radius:10px;border-spacing: 10px;">
+<tr>
+<td><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/login.html" target="_blank" style="color:black;">LOGIN</a></td>
+<td><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/signup.html" target="_blank" style="color:black;">SIGN UP</a></td>
+</tr>
+</table>
+<br/><br/>
+<p style="color:violet;background-color:gray;padding:1%;border:outset violet;">Please input your personal information for registration.</p>
+<form style="color:violet;background-color:gray;padding:1%;border:outset violet;">
+  <fieldset>
+    <legend>Personal Information:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="mname">Middle name:</label><br>
+    <input type="text" id="mname" name="mname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br>
+    <label for="street">Street:</label><br>
+    <input type="text" id="street" name="street"><br>
+    <label for="street">City:</label><br>
+    <input type="text" id="street" name="street"><br>
+    <label for="street">Country:</label><br>
+    <input type="text" id="street" name="street"><br>
+    <label for="street">Postal Code:</label><br>
+    <input type="text" id="street" name="street"><br>
+
+  </fieldset>
+  <fieldset>
+     <legend>Delivery address (for Purchases):</legend>
+    <label for="fname">Same as present address:</label><input type="checkbox"><br>
+    <label for="street">Postal Address:</label><br>
+    <input type="text" id="street" name="street"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Billing details:</legend>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+    <option value="fiat">Credit</option>
+    <option value="audi">Debit</option>
+    <option value="audi">Cash-on-Delivery</option>
+    </select>
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+    <option value="volvo">Visa</option>
+    <option value="saab">MasterCard</option>
+    </select>
+  </fieldset>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>	
+</html>
