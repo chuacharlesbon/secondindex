@@ -2,6 +2,7 @@
 My Second Index HTML includes my improved code structure, with a bit of Javascript, css styling, use of links and basic images. Also with working relative links, simulation of login page, and registration page.
 
 Started: Jan 22, 2022
+Last Updated: Feb, 2022
 Uploaded: May 5, 2022
 
 # References
