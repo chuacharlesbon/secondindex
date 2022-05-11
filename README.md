@@ -1,14 +1,14 @@
 # Second Index HTML Template
 My Second Index HTML includes my improved code structure, with a bit of Javascript, css styling, use of links and basic images. Also with working relative links, simulation of login page, and registration page.
 
-Started: Jan 22, 2022
-Last Updated: Feb, 2022
-Uploaded: May 5, 2022
+- Started: Jan 22, 2022
+- Last Updated: Feb, 2022
+- Uploaded: May 5, 2022
 
-# References
+## References
 W3 Schools Online
 
-# Inspiration
+## Inspiration
 Just like my first web page. Since my hobby includes movie and animations, I took it as an inspiration to create a website and enjoyed it. Better design was made in Second Index HTML template project. I shared this repository to share my early journey as I enter the IT industry. I'm not ashamed to share this since this is my first step which gave me motivation and dream to be a web developer.
 
 That time, my weakness is design but if there is an inspiration, reference, "a requirement" or "duplicate a website", since I am a technical person which follows a certain algorithm, I can build a page from a prototype or a model.
@@ -21,3 +21,6 @@ Third, after learning to implement what I've learned, the next action is to impr
 Most recent and detailed repository of my Zuitt Bootcamp journey will be found on gitlab https://gitlab.com/chuacharlesbon
 Zuitt really made me a better developer. But I wont stop from there. Im happy to learn more and continue this journey.
 
+- Feel Free to see published page
+1. https://chuacharlesbon.github.io/indexpage/
+2. https://chuacharlesbon.github.io/indexpage/pages/login.html
