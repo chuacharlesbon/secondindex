@@ -5,6 +5,8 @@ My Second Index HTML includes my improved code structure, with a bit of Javascri
 - Last Updated: Feb, 2022
 - Uploaded: May 5, 2022
 
+This page is static and non-responsive
+
 ## References
 W3 Schools Online
 
