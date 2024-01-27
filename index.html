@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <meta charset="UTF-8">
+  <meta name="description" content="Love Live"><!--search engine words-->
+  <meta name="keywords" content="Love Live">
+  <meta name="author" content="Charles">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--for web and phone convenience-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  <script src="https://kit.fontawesome.com/e64beca2d1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+.tablinks{
+  color:white;
+}
+.tab {
+  overflow: hidden;
+  border: 1px violet;
+  background-color: gray;
+  
+}
+.tab button {
+  background-color: gray;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+	border-radius: 7px;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px violet;
+  border-top: none;
+}
+.center{  display: block;margin-left: auto;margin-right: auto;"  
+</style>
+<title>Love Live! Nation</title>
+<link rel="icon" href="pngaaa.com-664611.png" type="image/png">
+</head>
+
+<body style="background-image: url('back4.jpg');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+
+<h2 id="top" style="color:violet;background-color:gray;padding:1%;border:outset violet;">
+<img src="logo.png" alt="logo" style="width:120px;height:24px;padding-left:20px;padding-right:20px;"><i>Love Live! School Idol Project</i>
+<button class="login" style="left: 87%;margin:0;position:absolute;"><a title="Love Live! Home" href="./login.html" target="_blank" style="color:black;">Login</a></button><button class="search" style="left:92%;margin:0;position:absolute;"><a title="Love Live! Home" href="#" target="_blank" style="color:black;">Search</a><i class="fas fa-search" style="padding-left:5px;"></i></button>
+</h2>
+<style>
+li:hover{
+	background-color: #ddd;
+	border-radius: 7px;
+}
+p1:hover{
+	background-color: #ddd;
+	border-radius: 7px;
+}
+</style>
+<div class="tab">
+<img src="lovelive-strong.gif" alt="gif" style="float:left;width:50px;height:50px;">
+	<button class="tablinks" onclick="openInfo(event, 'Home')"><a href="https://www.google.com" target="_blank" style="color:white;text-decoration: none;">Home</a></button>
+	<button class="tablinks" onclick="openInfo(event, 'Home')">Shopping</button>
+  <button class="tablinks" onclick="openInfo(event, 'News')">News</button>
+  <button class="tablinks" onclick="openInfo(event, 'About')">About</button>
+  <button class="tablinks" onclick="openInfo(event, 'ContactUs')">Contact Us</button>
+<img src="yohane.gif" alt="gif" style="float:right;width:50px;height:50px;">
+</div>
+
+<div id="News" class="tabcontent" style="color:red;background-color:pink;padding:1%;">
+  <h3>What's Hot today ?</h3>
+<ol>
+<li><a href="https://www.google.com" target="_blank" >Love Live! Concert</a></li>
+<li><a href="https://www.google.com" target="_blank" >Love Live! Manga Release</a></li>
+<li><a href="https://www.google.com" target="_blank" >Love Live! Anime Adaptation</a></li>
+</ol>
+  <p1><a href="https://www.google.com" target="_blank" title="Love Live! Concert">Love Live! Album Release</a></p1>
+<p1><a href="https://www.google.com" target="_blank" title="Love Live! Concert">More News! on Love Live!</a></p1>
+</div>
+
+<div id="About" class="tabcontent" style="color:red;background-color:pink;padding:1%;">
+  <h3>Thank you for visiting us!<br>This Page was created for the purpose of information and entertainment.</h3>
+  <p1>Page Designer: Charles Chua<br>Web developer: Charles Chua</p1> 
+</div>
+
+<div id="ContactUs" class="tabcontent" style="color:red;background-color:pink;padding:1%;">
+  <h3>We appreciate your feedbacks. Please see our links and hotline numbers:</h3>
+  <p1><address>Email: charlessbonnchua@gmail.com<br>HotLine: +63 9483944738</address></p1>
+</div>
+<div id="Home" class="tabcontent" style="color:red;background-color:pink;padding:1%;"><a href="https://www.google.com" target="_blank" >&uArr;</a>
+</div>
+
+<script>
+function openInfo(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<br>
+<style>
+article.full1{
+	background-color:lightgray;
+	margin-left:3%;
+	margin-right:3%;
+	overflow:scroll;
+	height:250px;
+	position:relative;
+}
+.article1{
+	background-color:gray;
+	margin-left:2%;
+	margin-right:2%;
+	padding-left:1%;
+	border-style: ridge;
+	font-family: arial;
+	line-height: 0.8;
+}
+.article3{
+	background-color:gray;
+	margin-left:2%;
+	margin-right:2%;
+	padding-left:1%;
+	border-style: ridge;
+	font-family: arial;
+	line-height: 0.8;
+}
+.article1:hover {
+	background-color:lightpink;
+	border:outset;
+	border-radius:10px;
+}
+
+aside{
+	width: 10%;
+	border:outset;
+	padding-left: 15px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	background-color: black;
+	color:white;
+}
+aside:hover{
+	background-color:lightpink;
+	border:outset;
+	border-radius:10px;
+}
+td {
+  border-radius:10px;
+  padding:5px;
+  border-style:outset;
+  text-align:center;
+}
+td:hover {
+  background-color: lightpink;
+}
+.sticky{position:sticky;top: 0;}
+
+@media screen and (max-width: 767px)
+.secondCol {
+    display: block !important;
+    width: 100vw !important;
+    margin-left: none !important;
+    background-color: red !important;
+}
+</style>
+
+<article class="full1">
+<h2 class="sticky" style="background-color:gray;color:white;padding:10px;border:outset violet;"><b>Most Popular Today</b></h2>
+<aside>
+<h6>Related topics...<img src="127-1271748_nishikino-maki-icon-love-live-maki-chibi.png" alt="gif" style="width:40px;height:40px;padding-left:5px;"></h6>
+<p style="font-style:italic;"><a style="color:white;" href="https://www.google.com" target="_blank" >Honoka Honks<br>Nozomi grope<br>Hanayo rice</a></p>
+</aside>
+
+<section class="article1">
+<h5>Umi Sonoda</h5>
+<p>Umi Sonoda is one of the nine main characters in Love Live!. She is a second year in Otonokizaka High School. Her image color is deep blue.</p></section><br/>
+<section class="article1">
+<h5>Nozomi Toujou</h5>
+<p>Nozomi Tojo is one of the nine main characters in Love Live!. She is a third year in Otonokizaka High School. Her image color is purple.</p>
+</section><br/>
+<section class="article1">
+<h5>You Watanabe</h5>
+<p>You Watanabe is one of the nine main characters of Love Live! Sunshine!!. She is a second year at Uranohoshi Girls' High School. Her image color is light blue.</p><br>
+</section><br>
+</article>
+
+<article class="article2">
+<h3 style="color:white;padding:10px;border:outset orange;background-color:gray;">Latest Episodes of Love Live on Crunchyroll
+<img src="crunchyroll-logo.png" alt="logo" style="padding-left:5px;width:80px;height:14px"></h3>
+</article>
+
+<aside>
+<h5>Take our survey today<img src="127-1271748_nishikino-maki-icon-love-live-maki-chibi.png" alt="gif" style="width:40px;height:40px;padding-left:5px;"></h5>
+<p style="font-style:italic;"><a style="color:white;" href="https://www.google.com" target="_blank" >Click here</a></p>
+</aside>
+
+<figure>
+<img src="anime.jpg" alt="anime"  style="display:block;margin-left: auto;margin-right: auto;width:50%;"  >
+ <figcaption style="text-align:center;">Fig1.Crunchyroll Official site/love-live-search</figcaption>
+</figure>
+
+<button class="center" style="color:black;"><a href="#top">Top</a></button>
+
+<br><footer class="center">All rights reserved 2022
+</footer>
+<br/>
+
+<div class="full1">
+<h2 style="background-color:gray;color:white;padding:10px;border:outset violet;">What do you want to order today ?</h2><br>
+<article class="article3">
+<p>Please enter details<p/>
+<form>
+  <label for="search">Search:</label>
+  <input type="text" id="search" name="search">
+  <input type="submit" value="Search">
+</form><br>
+
+<table style="border:none;width:100%;border-radius:10px;border-spacing: 10px;">
+<tr>
+  <td style="width:25%;"><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/index2.html" target="_blank" style="color:black;text-decoration:none;">Figures & Items</a></td>
+  <td><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/index2.html" target="_blank" style="color:black;text-decoration:none;">Albums</a></td>
+  <td><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/index2.html" target="_blank" style="color:black;text-decoration:none;">Manga</a></td>
+  <td><a title="Love Live! Home" href="file:///C:/Users/USER/Desktop/index2.html" target="_blank" style="color:black;text-decoration:none;">Others</a></td>
+</tr>
+</table>
+</article>
+</div>
+
+<h3 class="secondCol">test</h3>
+
+
+
+
+
+</body>	
+</html>
