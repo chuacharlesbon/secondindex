@@ -1,5 +1,5 @@
 # Second Index HTML Template
-My Second Index HTML includes my improved code structure, with a bit of Javascript, css styling, use of links and basic images. Also with working relative links, simulation of login page, and registration page.
+My Second Index HTML includes my improved code structure, with a bit of Javascript, css styling, use of links and basic images. Also with working relative links, simulation of login page, and registration page. https://chuacharlesbon.github.io/secondindex/login.html
 
 - Started: Jan 22, 2022
 - Last Updated: Feb, 2022
